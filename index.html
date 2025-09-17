@@ -192,22 +192,8 @@
             width: 150px;
             height: 150px;
             border-radius: 50%;
-            margin: 0 auto 1rem;
-            overflow: hidden;
-            border: 4px solid var(--primary-color);
-            box-shadow: var(--shadow);
-        }
-
-        .profile-avatar img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: center;
-        }
-
-        /* Fallback for when no image is provided */
-        .profile-avatar.no-image {
             background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            margin: 0 auto 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -586,11 +572,10 @@
             </div>
             <div class="hero-image">
                 <div class="profile-card">
-                    <div class="profile-avatar">
-                        <img src="../photo_2025-06-23_09-05-11.jpg" alt="Divaagar R B" onerror="this.parentElement.innerHTML='DR'; this.parentElement.classList.add('no-image');">
-                    </div>
+                    <div class="profile-avatar">DR</div>
                     <h3>Software Developer</h3>
                     <p>2025 Graduate</p>
+                    
                 </div>
             </div>
         </div>
@@ -907,3 +892,6 @@
     </script>
 </body>
 </html>
+<div>
+
+</div>
