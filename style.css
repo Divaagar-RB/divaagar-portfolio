@@ -1,0 +1,66 @@
+html{
+ width: 100%;
+
+}
+.index{
+    
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+ 
+}
+ul{
+    list-style: none;
+}
+.nav-bar>ul{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: flex-end;
+    position: relative;
+    top:10px;
+}
+span{
+    font-weight: bold;
+    font-size: 40px;;
+}
+
+.start-page{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    height: 100%;
+    position: relative;
+    left:3rem;
+
+
+
+
+}
+.about-me{
+    height: 100vh;
+    width:100vmax;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    
+}
+.about-me>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.about-me>div>p{
+    
+    padding-left: 30%;
+    padding-right: 30%;
+    height: 90em;
+    padding-top:10%;
+    text-align: justify;
+    
+}
